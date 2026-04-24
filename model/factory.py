@@ -1,12 +1,18 @@
-from abc import ABC, abstractmethod
-from typing import Optional
-from langchain_core.embeddings import Embeddings
-from langchain_community.chat_models.tongyi import BaseChatModel
-from langchain_community.embeddings import DashScopeEmbeddings
-from langchain_community.chat_models.tongyi import ChatTongyi
-from utils.config_handler import rag_conf
-import os  # 必须加！
 
+# ✅ 修改后的正确写法
+from langchain_core.embeddings import Embeddings
+
+# 注意这里变成了 llms 而不是 chat_models
+from langchain_community.llms.tongyi import ChatTongyi
+
+# 如果你需要 BaseChatModel，它通常在 core 或者 llms 里，
+# 但 ChatTongyi 继承自 BaseChatModel，通常直接导入 ChatTongyi 就够了。
+# 如果确实需要基类，建议检查是否应为：
+# from langchain_core.language_models.chat_models import BaseChatModel
+
+from langchain_community.embeddings import DashScopeEmbeddings
+from utils.config_handler import rag_conf
+import os
 
 class BaseModelFactory(ABC):
     @abstractmethod
