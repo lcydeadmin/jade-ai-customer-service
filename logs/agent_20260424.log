@@ -1,0 +1,19 @@
+2026-04-24 11:29:55,802 - agent - INFO - vector_store.py:101 - [加载知识库]D:\AI大模型RAG与智能体开发\AI大模型RAG与智能体开发_Agent项目\data\主流玉石品类详解 100 问.txt 内容加载成功
+2026-04-24 11:29:57,456 - agent - INFO - vector_store.py:101 - [加载知识库]D:\AI大模型RAG与智能体开发\AI大模型RAG与智能体开发_Agent项目\data\玉石佩戴保养与盘玩养护 100 问.txt 内容加载成功
+2026-04-24 11:29:59,339 - agent - INFO - vector_store.py:101 - [加载知识库]D:\AI大模型RAG与智能体开发\AI大模型RAG与智能体开发_Agent项目\data\玉石真假鉴别与瑕疵解析 100 问.txt 内容加载成功
+2026-04-24 11:30:01,262 - agent - INFO - vector_store.py:101 - [加载知识库]D:\AI大模型RAG与智能体开发\AI大模型RAG与智能体开发_Agent项目\data\玉石综合常识 100 问.txt 内容加载成功
+2026-04-24 11:30:02,719 - agent - INFO - vector_store.py:101 - [加载知识库]D:\AI大模型RAG与智能体开发\AI大模型RAG与智能体开发_Agent项目\data\玉石选购避坑指南 100 问.txt 内容加载成功
+2026-04-24 11:38:58,370 - agent - INFO - vector_store.py:79 - [加载知识库]D:\AI大模型RAG与智能体开发\AI大模型RAG与智能体开发_Agent项目\data\主流玉石品类详解 100 问.txt内容已经存在知识库内，跳过
+2026-04-24 11:38:58,371 - agent - INFO - vector_store.py:79 - [加载知识库]D:\AI大模型RAG与智能体开发\AI大模型RAG与智能体开发_Agent项目\data\玉石佩戴保养与盘玩养护 100 问.txt内容已经存在知识库内，跳过
+2026-04-24 11:38:58,371 - agent - INFO - vector_store.py:79 - [加载知识库]D:\AI大模型RAG与智能体开发\AI大模型RAG与智能体开发_Agent项目\data\玉石真假鉴别与瑕疵解析 100 问.txt内容已经存在知识库内，跳过
+2026-04-24 11:38:58,371 - agent - INFO - vector_store.py:79 - [加载知识库]D:\AI大模型RAG与智能体开发\AI大模型RAG与智能体开发_Agent项目\data\玉石综合常识 100 问.txt内容已经存在知识库内，跳过
+2026-04-24 11:38:58,372 - agent - INFO - vector_store.py:79 - [加载知识库]D:\AI大模型RAG与智能体开发\AI大模型RAG与智能体开发_Agent项目\data\玉石选购避坑指南 100 问.txt内容已经存在知识库内，跳过
+2026-04-24 11:41:28,057 - agent - INFO - vector_store.py:79 - [加载知识库]D:\AI大模型RAG与智能体开发\AI大模型RAG与智能体开发_Agent项目\data\主流玉石品类详解 100 问.txt内容已经存在知识库内，跳过
+2026-04-24 11:41:28,058 - agent - INFO - vector_store.py:79 - [加载知识库]D:\AI大模型RAG与智能体开发\AI大模型RAG与智能体开发_Agent项目\data\玉石佩戴保养与盘玩养护 100 问.txt内容已经存在知识库内，跳过
+2026-04-24 11:41:28,058 - agent - INFO - vector_store.py:79 - [加载知识库]D:\AI大模型RAG与智能体开发\AI大模型RAG与智能体开发_Agent项目\data\玉石真假鉴别与瑕疵解析 100 问.txt内容已经存在知识库内，跳过
+2026-04-24 11:41:28,059 - agent - INFO - vector_store.py:79 - [加载知识库]D:\AI大模型RAG与智能体开发\AI大模型RAG与智能体开发_Agent项目\data\玉石综合常识 100 问.txt内容已经存在知识库内，跳过
+2026-04-24 11:41:28,060 - agent - INFO - vector_store.py:79 - [加载知识库]D:\AI大模型RAG与智能体开发\AI大模型RAG与智能体开发_Agent项目\data\玉石选购避坑指南 100 问.txt内容已经存在知识库内，跳过
+2026-04-24 11:41:46,406 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-04-24 11:41:46,406 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 你是谁
+2026-04-24 11:51:07,347 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-04-24 11:51:07,348 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 你是谁
