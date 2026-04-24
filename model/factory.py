@@ -1,15 +1,13 @@
+from abc import ABC, abstractmethod
+from typing import Optional
 
-# ✅ 修改后的正确写法
+# 1. 导入修正：ChatTongyi 位于 chat_models.tongyi
+from langchain_community.chat_models.tongyi import ChatTongyi
+
+# 2. 导入修正：BaseChatModel 位于 core 包中，不要从 community 里导
+from langchain_core.chat_models import BaseChatModel
+
 from langchain_core.embeddings import Embeddings
-
-# 注意这里变成了 llms 而不是 chat_models
-from langchain_community.llms.tongyi import ChatTongyi
-
-# 如果你需要 BaseChatModel，它通常在 core 或者 llms 里，
-# 但 ChatTongyi 继承自 BaseChatModel，通常直接导入 ChatTongyi 就够了。
-# 如果确实需要基类，建议检查是否应为：
-# from langchain_core.language_models.chat_models import BaseChatModel
-
 from langchain_community.embeddings import DashScopeEmbeddings
 from utils.config_handler import rag_conf
 import os
